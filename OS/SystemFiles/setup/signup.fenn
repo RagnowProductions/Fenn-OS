@@ -1,0 +1,5 @@
+target singup() {
+  type("Welcome to Fenn OS 1.0")
+  ask("Please choose username:", max="16", inputVar="uname")
+  var unametxt = "uname.txt, content='uname'"
+  create(dir, name="uname", content="zip", path="root/users/")
