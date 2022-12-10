@@ -1,0 +1,4 @@
+target Printer() {
+  var printer = port(btooth, "Printer")
+  controls printer = send(.selected, printer)
+}
