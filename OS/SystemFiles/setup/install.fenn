@@ -1,0 +1,8 @@
+target install() {
+  type("Welcome to Fenn OS 1.0 Install")
+  type("Installing files...")
+  install("root/SystemFiles/")
+  install("root/Users/")
+  type("Install done. Starting signup.fenn")
+  open("signup.fenn")
+}
