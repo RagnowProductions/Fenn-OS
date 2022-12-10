@@ -1,6 +1,0 @@
-target Keyboard() {
-  var Keyboard = port(USB, type="Keyboard")
-  controls Keyboard {
-    Keyboard.keyPressed(any) = type(Keyboard.keyPressed.relevant)
-  }
-}
