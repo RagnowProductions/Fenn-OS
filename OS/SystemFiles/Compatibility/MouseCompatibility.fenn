@@ -1,5 +1,6 @@
 target Mouse() {
   var Mouse = port(USB, type="mouse")
   var Mouse.image = "MousePointer.png"
+  var Mouse.image.hover = "CuteBoi.png"
   controls Mouse = Mouse.X + Mouse.Z
 }
