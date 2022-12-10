@@ -1,0 +1,9 @@
+How to add new:
+
+Make a new fenn file
+Use template below:
+
+target itemname() {
+  var itemname = port(porttype, "itemname")
+  controls itemname = commandr2item
+}
