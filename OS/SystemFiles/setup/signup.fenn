@@ -1,5 +1,10 @@
 target singup() {
   type("Welcome to Fenn OS 1.0")
   ask("Please choose username:", max="16", inputVar="uname")
+  ask("Please choose password:", min="8", inputVar="pword")
   var unametxt = "uname.txt, content='uname'"
+  var pwordtxt = "pword.txt, content='pword'"
+  var zip = "zip.zip, content='unametxt, pwordtxt'"
   create(dir, name="uname", content="zip", path="root/users/")
+  type("Account created. Launching Fenn OS
+}
