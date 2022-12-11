@@ -1,0 +1,7 @@
+target fennbrowser() {
+  var searchbar = input(url, onenter="showurl, base")
+  var base = html <body></body>
+  command base = searchbar.url.show
+  placement searchbar = x="full" y="top"
+  placement base = x="full" y="searchbar.below"
+}
