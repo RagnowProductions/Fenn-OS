@@ -1,0 +1,5 @@
+target filesapp() {
+  var body = html <body></body>
+  var files = os.itemsIncluded
+  body.show.grid(files.all)
+}
