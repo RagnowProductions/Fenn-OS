@@ -6,5 +6,6 @@ target singup() {
   var pwordtxt = "pword.txt, content='pword'"
   var zip = "zip.zip, content='unametxt, pwordtxt'"
   create(dir, name="uname", content="zip", path="root/users/")
-  type("Account created. Launching Fenn OS
+  type("Account created. Launching Fenn OS")
+  open("mainos")
 }
