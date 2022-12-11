@@ -1,0 +1,7 @@
+target textedit() {
+  var text = ask(text, "What to put:")
+  var ext = ask(text, "Extension:")
+  var name = ask(text, "What to call it:")
+  create(name="name.extension", content="text")
+  type("Created.")
+}
