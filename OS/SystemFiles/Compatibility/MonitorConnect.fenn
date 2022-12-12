@@ -1,0 +1,4 @@
+target monitor() {
+  var monitor = port(hdmi, "Monitor")
+  controls monitor = display(os)
+}
