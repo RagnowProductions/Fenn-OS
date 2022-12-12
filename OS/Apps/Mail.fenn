@@ -1,0 +1,6 @@
+target mail() {
+  var mailIncoming = recieve(incoming, mail)
+  var body = html <body></body>
+  var body.list = list(mailIncoming, all)
+  show(body)
+}
