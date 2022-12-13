@@ -1,0 +1,6 @@
+target sgen() {
+  var list = "F, R, U, B, L, D, F', R', U', B', L', D', M, S, E, M', S', E'"
+  var scramble = random(list.content.any.20)
+  type("Here is the scramble:")
+  type(scramble)
+}
