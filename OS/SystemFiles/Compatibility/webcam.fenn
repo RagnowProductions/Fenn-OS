@@ -1,0 +1,4 @@
+target webcam() {
+  var webcam = port(usb, "Webcam")
+  controls webcam = send("webcam.view.data", helperApp)
+}
