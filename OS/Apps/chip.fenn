@@ -1,0 +1,6 @@
+target chip() {
+  var chip = "chip.png"
+  forever {
+    rotate(chip, "5")
+  }
+}
