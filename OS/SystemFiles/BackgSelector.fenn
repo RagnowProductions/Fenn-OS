@@ -1,0 +1,13 @@
+target bgselect() {
+  var bg.1 = "root/SystemFiles/Assets/Backgrounds/1.jpeg"
+  var bg.2 = "root/SystemFiles/Assets/Backgrounds/2.jpeg"
+  var bg.3 = "root/SystemFiles/Assets/Backgrounds/3.jpeg"
+  var bg.4 = "root/SystemFiles/Assets/Backgrounds/4.jpeg"
+  var bg.5 = "root/SystemFiles/Assets/Backgrounds/5.jpeg"
+  var bg.6 = "root/SystemFiles/Assets/Backgrounds/6.jpeg"
+  var bg.7 = "root/SystemFiles/Assets/Backgrounds/7.jpeg"
+  var bg.8 = "root/SystemFiles/Assets/Backgrounds/8.jpeg"
+  if command(ctrl+b+g) {
+    os.background.swap(bg.list.next)
+  }
+}
