@@ -1,0 +1,7 @@
+target timer() {
+  var time = "0"
+  forever {
+    update time = constant(time + 1)
+    type(time)
+  }
+}
