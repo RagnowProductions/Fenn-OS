@@ -1,5 +1,5 @@
 target chip() {
-  var chip = "chip.png"
+  var chip = "root/SystemFiles/Assets/chip.png"
   forever {
     rotate(chip, "5")
   }
