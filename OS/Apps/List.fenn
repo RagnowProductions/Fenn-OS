@@ -1,0 +1,7 @@
+target list() {
+  var num = "1"
+  forever {
+    ask("num: ")
+    update num = num + 1
+  }
+}
