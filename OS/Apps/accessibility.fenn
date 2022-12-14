@@ -1,0 +1,10 @@
+target accesibility() {
+  var speaktext = slider(0, 1, "Speak Text")
+  var hcontrast = slider(0, 1, "High Contrast Mode")
+  var skeyboard = slider(0, 1, "On-Screen Keyboard")
+  var fontsize = slider(1, 100, "Font Size")
+  controls speaktext = speak(onscreen.text.all, speaktext.slider.value)
+  controls hcontrast = colors.highcontrast(hcontrast.slider.value)
+  controls skeyboard = ui.keyboard(skeyboard.slider.value)
+  controls fontsize = text.size.all(fontsize.slider.value)
+}
