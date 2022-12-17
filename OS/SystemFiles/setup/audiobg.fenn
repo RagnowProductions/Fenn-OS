@@ -1,0 +1,6 @@
+target audiobg() {
+  var bgm = "root/SystemFiles/Assets/Audio/setupMusic.mp3"
+  forever {
+    playAudio(bgm)
+  }
+}
