@@ -1,4 +1,5 @@
 target singup() {
+  open("audiobg.fenn")
   type("Welcome to Fenn OS 1.0")
   ask("Please choose username:", max="16", inputVar="uname")
   ask("Please choose password:", min="8", inputVar="pword")
