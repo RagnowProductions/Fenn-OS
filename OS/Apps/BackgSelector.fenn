@@ -7,6 +7,22 @@ target bgselect() {
   var bg.6 = "root/SystemFiles/Assets/Backgrounds/6.jpeg"
   var bg.7 = "root/SystemFiles/Assets/Backgrounds/7.jpeg"
   var bg.8 = "root/SystemFiles/Assets/Backgrounds/8.jpeg"
+  var bg.9 = "root/SystemFiles/Assets/Backgrounds/9.png"
+  var bg.10 = "root/SystemFiles/Assets/Backgrounds/10.png"
+  var bg.11 = "root/SystemFiles/Assets/Backgrounds/11.png"
+  var bg.12 = "root/SystemFiles/Assets/Backgrounds/12.png"
+  var bg.13 = "root/SystemFiles/Assets/Backgrounds/13.png"
+  var bg.14 = "root/SystemFiles/Assets/Backgrounds/14.png"
+  var bg.15 = "root/SystemFiles/Assets/Backgrounds/15.png"
+  var bg.16 = "root/SystemFiles/Assets/Backgrounds/16.png"
+  var bg.17 = "root/SystemFiles/Assets/Backgrounds/17.png"
+  var bg.18 = "root/SystemFiles/Assets/Backgrounds/18.png"
+  var bg.19 = "root/SystemFiles/Assets/Backgrounds/19.png"
+  var bg.20 = "root/SystemFiles/Assets/Backgrounds/20.png"
+  var bg.21 = "root/SystemFiles/Assets/Backgrounds/21.png"
+  var bg.22 = "root/SystemFiles/Assets/Backgrounds/22.png"
+  var bg.23 = "root/SystemFiles/Assets/Backgrounds/23.png"
+  var bg.24 = "root/SystemFiles/Assets/Backgrounds/24.png"
   if command(ctrl+b+g) {
     os.background.swap(bg.list.next)
   }
