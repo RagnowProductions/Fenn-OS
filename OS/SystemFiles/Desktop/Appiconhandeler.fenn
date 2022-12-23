@@ -1,2 +1,5 @@
 target appiconhandeler() {
-  var icon.files = 
+  var icon.files = "root/SystemFiles/Assets/appicons/files.png"
+  var icon.textedit = "root/SystemFiles/Assets/appicons/textedit.png"
+  var icon.files = "root/SystemFiles/Assets/appicons/files.png"
+  
