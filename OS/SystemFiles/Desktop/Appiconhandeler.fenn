@@ -6,4 +6,8 @@ target appiconhandeler() {
   placement icon.textedit = x="screen.size.side.left" y="icon.files.placement.below"
   placement icon.wbrowser = x="screen.size.side.left" y="icon.textedit.placement.below"
   controls icon.files = onclick{
-    open(
+    open("root/Apps/files.fenn")
+  }
+  controls icon.textedit = onclick{
+    open("root/Apps/TextEdit.fenn")
+  }
