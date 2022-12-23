@@ -11,3 +11,7 @@ target appiconhandeler() {
   controls icon.textedit = onclick{
     open("root/Apps/TextEdit.fenn")
   }
+  controls icon.wbrowser = onclick{
+    open("root/Apps/browser.fenn")
+  }
+}
