@@ -1,5 +1,9 @@
 target appiconhandeler() {
   var icon.files = "root/SystemFiles/Assets/appicons/files.png"
   var icon.textedit = "root/SystemFiles/Assets/appicons/textedit.png"
-  var icon.files = "root/SystemFiles/Assets/appicons/files.png"
-  
+  var icon.wbrowser = "root/SystemFiles/Assets/appicons/internet.png"
+  placement icon.files = x="screen.size.side.left" y="screen.size.side.top"
+  placement icon.textedit = x="screen.size.side.left" y="icon.files.placement.below"
+  placement icon.wbrowser = x="screen.size.side.left" y="icon.textedit.placement.below"
+  controls icon.files = onclick{
+    open(
