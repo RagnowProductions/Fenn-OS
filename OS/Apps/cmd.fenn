@@ -1,0 +1,7 @@
+target cmdprompt() {
+  var cmd = input(type="fenncode", prompt="Insert Fenn Code Here:")
+  placement cmd = x="window.left" y="window.top"
+  cmd.onEnter {
+    runScript(cmd)
+  }
+}
